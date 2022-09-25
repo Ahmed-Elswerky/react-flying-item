@@ -1,6 +1,6 @@
 {
   "name": "react-flying-item",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NPM Library to make the selected item image seem to fly to top left corner (e.g: fly to cart icon)",
   "author": {
     "name": "Ahmed-Elswerky",
