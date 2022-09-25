@@ -1,0 +1,30 @@
+# react-flying-item
+
+>  Npm Library to make the selected item image seem to fly to top left corner (e.g: fly to cart icon)
+
+[![NPM](https://img.shields.io/npm/v/react-flying-item.svg)](https://www.npmjs.com/package/react-flying-item) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+## Install
+
+```bash
+npm install --save react-flying-item
+```
+
+## Usage
+
+```jsx
+import React, { Component } from 'react'
+
+import MyComponent from 'react-flying-item'
+import 'react-flying-item/dist/index.css'
+
+class Example extends Component {
+  render() {
+    return <MyComponent />
+  }
+}
+```
+
+## License
+
+MIT © [Ahmed-Elswerky](https://github.com/Ahmed-Elswerky)
