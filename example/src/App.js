@@ -1,5 +1,6 @@
 import React from 'react'
 import FlyingButton from 'react-flying-item'
+import 'react-flying-item/dist/index.css'
 
 const App = () => {
   return (
