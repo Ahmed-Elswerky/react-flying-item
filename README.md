@@ -10,6 +10,12 @@
 npm install --save react-flying-item
 ```
 
+## Main Behavior Points
+
+- Animation period is 900 ms
+- Animation ends with Opacity 0
+- Position is Fixed and values of top and left are reset from [event mouse clientX,clientY]
+
 ## Usage
 
 ```jsx
