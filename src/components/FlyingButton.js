@@ -28,7 +28,7 @@ export default function FlyingButton({ src, children }) {
       <img
         src=''
         alt=''
-        className={styles['flying-image']}
+        className={styles.flying_image}
         style={{ display: 'none' }}
         ref={flyingImage}
       />
