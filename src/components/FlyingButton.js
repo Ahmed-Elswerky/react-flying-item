@@ -1,6 +1,18 @@
 import React, { useRef } from 'react'
 
-export default function FlyingButton({ src, children }) {
+const DEFAULT_TARGET_TOP = '5%',
+  DEFAULT_TARGET_LEFT = '5%',
+  DEFAULT_ANIMATION_DURATION = 0.9,
+  DEFAULT_ITEM_STYLING = { borderRadius: '4rem', width: '8rem' }
+
+export default function FlyingButton({
+  src = '',
+  children,
+  targetTop = DEFAULT_TARGET_TOP,
+  targetLeft = DEFAULT_TARGET_LEFT,
+  animationDuration = DEFAULT_ANIMATION_DURATION,
+  flyingItemStyling = DEFAULT_ITEM_STYLING
+}) {
   const flyingImage = useRef(null)
   return (
     <div>
@@ -14,10 +26,8 @@ export default function FlyingButton({ src, children }) {
           position: fixed;
           top: var(--target-position-y);
           left: var(--target-position-x);
-          width: 8rem;
           translate: -50% -50%;
-          animation: fly 0.9s 1;
-          border-radius: 4rem;
+          animation: fly ${animationDuration}s 1;
         }
         @keyframes fly {
           0% {
@@ -30,8 +40,8 @@ export default function FlyingButton({ src, children }) {
           /* opacity: 1; */
           /* } */
           100% {
-            top: 5%;
-            left: 5%;
+            top: ${targetTop};
+            left: ${targetLeft};
             opacity: 0;
           }
         }
@@ -61,7 +71,11 @@ export default function FlyingButton({ src, children }) {
         src=''
         alt=''
         className='flying_image'
-        style={{ display: 'none' }}
+        style={{
+          display: 'none',
+          ...DEFAULT_ITEM_STYLING,
+          ...flyingItemStyling
+        }}
         ref={flyingImage}
       />
     </div>

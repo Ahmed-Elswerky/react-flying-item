@@ -12,6 +12,15 @@
 npm install --save react-flying-item
 ```
 
+## Customizable values props
+
+| Field Name        | Type     | Required/Optional | Default value                           |
+| ----------------- | -------- | ----------------- | --------------------------------------- |
+| targetTop         | `String` | Optional          | '5%'                                    |
+| targetLeft        | `String` | Optional          | '5%'                                    |
+| animationDuration | `Int`    | Optional          | 0.9                                     |
+| flyingItemStyling | `Object` | Optional          | { borderRadius: '4rem', width: '8rem' } |
+
 ## Main Behavior Points
 
 - Animation period is 900 ms
