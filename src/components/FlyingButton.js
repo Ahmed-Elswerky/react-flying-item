@@ -61,7 +61,7 @@ export default function FlyingButton({
           flyingImage.current.src = src
           setTimeout(
             () => flyingImage.current.style.setProperty('display', 'none'),
-            800
+            animationDuration * 1000 - 100
           )
         }}
       >
