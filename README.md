@@ -25,14 +25,13 @@ npm install --save react-flying-item
 
 - Animation period is 900 ms
 - Animation ends with Opacity 0
-- Position is Fixed and values of top and left are reset from [event mouse clientX,clientY]
+- Position is Fixed and values of top and left are reset from [event mouse clientX,clientY] to 5%,5%
 
 ## Usage
 
 ```jsx
 import React from 'react'
 import FlyingButton from 'react-flying-item'
-import 'react-flying-item/dist/index.css'
 
 const App = () => {
   return (
