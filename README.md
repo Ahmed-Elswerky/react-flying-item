@@ -4,6 +4,8 @@
 
 [![NPM](https://img.shields.io/npm/v/react-flying-item.svg)](https://www.npmjs.com/package/react-flying-item) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+> [Demo CodePen](https://codepen.io/Ahmed_Elswerky/pen/YzLEQGj)
+
 ![Example Gif](./ex.gif)
 
 ## Install
@@ -18,6 +20,7 @@ npm install --save react-flying-item
 | ----------------- | -------- | ----------------- | --------------------------------------- |
 | targetTop         | `String` | Optional          | '5%'                                    |
 | targetLeft        | `String` | Optional          | '5%'                                    |
+| customAnimation   | `String` | Optional          | ''     (e.g: 20%{translate:80% 80%;})   |
 | animationDuration | `Int`    | Optional          | 0.9                                     |
 | flyingItemStyling | `Object` | Optional          | { borderRadius: '4rem', width: '8rem' } |
 
