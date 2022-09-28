@@ -1,6 +1,6 @@
 {
   "name": "react-flying-item",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "NPM Library to make the selected item image seem to fly to top left corner (e.g: fly to cart icon)",
   "author": {
     "name": "Ahmed-Elswerky",
@@ -30,6 +30,7 @@
     "react": "^16.0.0"
   },
   "devDependencies": {
+    "@types/react": "^18.0.21",
     "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
@@ -53,9 +54,7 @@
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "@types/react": "^18.0.21"
-  },
+  "dependencies": {},
   "keywords": [
     "react",
     "button",
