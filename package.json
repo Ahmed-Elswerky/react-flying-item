@@ -1,6 +1,6 @@
 {
   "name": "react-flying-item",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "NPM Library to make the selected item image seem to fly to top left corner (e.g: fly to cart icon)",
   "author": {
     "name": "Ahmed-Elswerky",
@@ -15,7 +15,7 @@
     "node": ">=10"
   },
   "scripts": {
-    "build": "microbundle-crl --no-compress --format modern,cjs",
+    "build": "rm -rf dist && microbundle-crl --compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
