@@ -5,7 +5,7 @@
 [![NPM](https://img.shields.io/npm/v/react-flying-item.svg)](https://www.npmjs.com/package/react-flying-item)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) 
 [![Bundle Size](https://img.shields.io/bundlephobia/minzip/react-flying-item?label=Bundle%20size)](https://bundlephobia.com/result?p=react-flying-item) 
-[![Downloads](https://img.shields.io/npm/dm/react-flying-item?label=react-flying-item)](https://www.npmtrends.com/react-flying-item) 
+[![Downloads](https://img.shields.io/npm/dm/react-flying-item?label=Downloads)](https://www.npmtrends.com/react-flying-item) 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
 
 
