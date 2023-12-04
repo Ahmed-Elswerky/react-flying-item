@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react'
 import FlyingButton from 'react-flying-item'
 
@@ -10,8 +11,8 @@ const App = () => {
           key={k + 'img'}
           src={e}
           animationDuration={2}
-          targetTop={'50%'}
-          targetLeft={'50%'}
+          targetTop='50%'
+          targetLeft='50%'
         >
           <img src={e} alt='' />
         </FlyingButton>

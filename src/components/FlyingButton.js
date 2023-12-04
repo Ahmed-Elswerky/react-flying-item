@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 
 const DEFAULT_TARGET_TOP = '5%',
   DEFAULT_TARGET_LEFT = '5%',
@@ -14,7 +14,7 @@ export default function FlyingButton({
   animationDuration = DEFAULT_ANIMATION_DURATION,
   flyingItemStyling = DEFAULT_ITEM_STYLING
 }) {
-  const flyingImage = useRef(null)
+  const flyingImage = React?.useRef(null)
 
   const initFlight = (e) => {
     flyingImage.current.style.setProperty(

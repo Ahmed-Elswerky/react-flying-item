@@ -26,11 +26,7 @@
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
   },
-  "peerDependencies": {
-    "react": "^17"
-  },
   "devDependencies": {
-    "@types/react": "^18.0.21",
     "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
@@ -54,7 +50,9 @@
   "files": [
     "dist"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@babel/plugin-syntax-import-attributes": "^7.23.3"
+  },
   "keywords": [
     "react",
     "button",

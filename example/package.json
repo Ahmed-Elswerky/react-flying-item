@@ -16,11 +16,7 @@
     "react-scripts": "file:../node_modules/react-scripts"
   },
   "devDependencies": {
-    "@babel/plugin-syntax-object-rest-spread": "^7.8.3",
-    "@types/react-dom": "file:../node_modules/@types/react-dom"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
   },
   "browserslist": [
     ">0.2%",
