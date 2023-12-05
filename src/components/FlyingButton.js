@@ -1,9 +1,11 @@
-import React from 'react'
+/* eslint-disable prettier/prettier */
+/* eslint-disable react/react-in-jsx-scope */
+import { useRef } from 'react'
 
-const DEFAULT_TARGET_TOP = '5%',
-  DEFAULT_TARGET_LEFT = '5%',
-  DEFAULT_ANIMATION_DURATION = 0.9,
-  DEFAULT_ITEM_STYLING = { borderRadius: '4rem', width: '8rem' }
+const DEFAULT_TARGET_TOP = '5%'
+const DEFAULT_TARGET_LEFT = '5%'
+const DEFAULT_ANIMATION_DURATION = 0.9
+const DEFAULT_ITEM_STYLING = { borderRadius: '4rem', width: '8rem' }
 
 export default function FlyingButton({
   src = '',
@@ -14,7 +16,7 @@ export default function FlyingButton({
   animationDuration = DEFAULT_ANIMATION_DURATION,
   flyingItemStyling = DEFAULT_ITEM_STYLING
 }) {
-  const flyingImage = React?.useRef(null)
+  const flyingImage = useRef(null)
 
   const initFlight = (e) => {
     flyingImage.current.style.setProperty(
