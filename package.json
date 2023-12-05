@@ -30,6 +30,7 @@
     "react": "^16.0.0"
   },
   "devDependencies": {
+    "@babel/plugin-syntax-import-attributes": "^7.23.3",
     "@types/react": "^18.0.21",
     "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.2",
@@ -53,7 +54,7 @@
   },
   "files": [
     "dist"
-  ], 
+  ],
   "dependencies": {},
   "keywords": [
     "react",
