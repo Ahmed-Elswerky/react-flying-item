@@ -1,6 +1,4 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable react/react-in-jsx-scope */
-import { useRef } from 'react'
+import React, { useRef } from 'react'
 
 const DEFAULT_TARGET_TOP = '5%'
 const DEFAULT_TARGET_LEFT = '5%'
