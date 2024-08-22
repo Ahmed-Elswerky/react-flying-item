@@ -1,28 +1,4 @@
-import React, { useRef } from 'react'
 
-const DEFAULT_TARGET_TOP = '5%'
-const DEFAULT_TARGET_LEFT = '5%'
-const DEFAULT_ANIMATION_DURATION = 0.9
-const DEFAULT_ITEM_STYLING = { borderRadius: '4rem', width: '8rem' }
-
-export default function FlyingButton({
-  src = '',
-  children,
-  targetTop = DEFAULT_TARGET_TOP,
-  targetLeft = DEFAULT_TARGET_LEFT,
-  customAnimation = '',
-  animationDuration = DEFAULT_ANIMATION_DURATION,
-  flyingItemStyling = DEFAULT_ITEM_STYLING
-}) {
-  const flyingImage = useRef(null)
-
-  const initFlight = (e) => {
-    flyingImage.current.style.setProperty(
-      '--target-position-x',
-      e.clientX + 'px'
-    )
-    flyingImage.current.style.setProperty(
-      '--target-position-y',
       e.clientY + 'px'
     )
     flyingImage.current.style.setProperty('display', '')
