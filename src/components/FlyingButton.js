@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { useRef } from 'react'
 
 const DEFAULT_TARGET_TOP = '5%'

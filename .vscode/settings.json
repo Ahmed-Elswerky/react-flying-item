@@ -1,0 +1,13 @@
+{
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "variable.other.property.js",
+        "settings": {
+          "foreground": "#00eeff"
+        }
+      }
+    ],
+    "comments": "#b3ff00"
+  }
+}
