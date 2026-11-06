@@ -30,4 +30,4 @@ jobs:
             echo "publish=true" >> "$GITHUB_OUTPUT"
           fi
       - if: steps.package_version.outputs.publish == 'true'
-        run: npm publish
+        run: npm publish --provenance --access public
