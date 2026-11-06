@@ -1,6 +1,6 @@
 {
   "name": "react-flying-item",
-  "version": "1.1.3",
+  "version": "1.1.5",
   "description": "NPM Library to make the selected item image seem to fly to top left corner (e.g: fly to cart icon)",
   "author": {
     "name": "Ahmed-Elswerky",
@@ -15,7 +15,7 @@
     "node": ">=10"
   },
   "scripts": {
-    "build": "rm -rf dist && microbundle-crl --compress --format modern,cjs",
+    "build": "rimraf dist && microbundle-crl --compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
@@ -27,7 +27,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^18.0.0"
+    "react": ">=16.8.0 <20.0.0"
   },
   "devDependencies": {
     "@babel/plugin-syntax-import-attributes": "^7.23.3",
@@ -38,7 +38,8 @@
     "prettier": "^2.0.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-scripts": "^5"
+    "react-scripts": "^5",
+    "rimraf": "^3.0.2"
   },
   "files": [
     "dist"

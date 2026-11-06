@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "postinstall": "node -e \"const fs=require('fs'); const target='node_modules/react-flying-item/node_modules/react'; fs.rmSync(target, { recursive: true, force: true }); fs.mkdirSync(target, { recursive: true }); fs.writeFileSync(target + '/index.js', \\\"module.exports = require('../../../react')\\\")\"",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",

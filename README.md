@@ -19,6 +19,11 @@
 npm install --save react-flying-item
 ```
 
+## Compatibility
+
+`react-flying-item` supports React 16.8 through React 19. React is a peer
+dependency, so your application supplies the single React version it uses.
+
 ## Customizable values props
 
 | Field Name        | Type     | Required/Optional | Default value                           | Details
